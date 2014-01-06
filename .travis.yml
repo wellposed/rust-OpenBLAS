@@ -7,6 +7,7 @@ before_install:
 install:
   - sudo apt-get install rust-nightly
 script:
+    - echo "done"
   # - rustpkg test tests
   # - rustpkg build --opt-level=3 bench
   # -  sh .travis.sh

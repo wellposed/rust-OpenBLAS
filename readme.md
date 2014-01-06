@@ -4,7 +4,7 @@
 
 rust-OpenBLAS is an open source component of the [Wellposed](http://www.wellposed.com)® mathematical software suite. 
 
-[![Build Status](https://secure.travis-ci.org/wellposed/hOpenBLAS.png?branch=master)](http://travis-ci.org/wellposed/rust-OpenBLAS)
+[![Build Status](https://secure.travis-ci.org/wellposed/rust-OpenBLAS.png?branch=master)](http://travis-ci.org/wellposed/rust-OpenBLAS)
 
 rust-OpenBLAS is a self contained full (well, not quite yet) BLAS and LAPACK binding that provides the 
 full BLAS and LAPACKE APIs in a simple, unopinionated, Rust wrapper. 
