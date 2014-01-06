@@ -11,3 +11,14 @@ script:
   # - rustpkg test tests
   # - rustpkg build --opt-level=3 bench
   # -  sh .travis.sh
+  
+notifications:
+  email: false
+  irc:
+    channels:
+      - "irc.freenode.org#numerical-haskell"
+      - "irc.freenode.org#numerical"
+      - "irc.freenode.org#wellposed"
+    skip_join: true
+    template:
+      - "\x0313 hOpenBLAS \x03/\x0306%{branch}\x03 \x0314%{commit}\x03 %{build_url} %{message}"
