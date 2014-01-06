@@ -1,0 +1,12 @@
+before_install:
+  - yes | sudo add-apt-repository ppa:hansjorg/rust
+  - sudo apt-get update 
+  - sudo apt-get install gfortran
+  - git clone http://github.com/wellposed/wellposed-travis travis
+  - ./travis/scripts/build-openblas.sh
+install:
+  - sudo apt-get install rust-nightly
+script:
+  # - rustpkg test tests
+  # - rustpkg build --opt-level=3 bench
+  # -  sh .travis.sh
