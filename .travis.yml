@@ -16,9 +16,7 @@ notifications:
   email: false
   irc:
     channels:
-      - "irc.freenode.org#numerical-haskell"
-      - "irc.freenode.org#numerical"
-      - "irc.freenode.org#wellposed"
+      - "irc.freenode.org#numerical-haskell" # yes, its a general math channel sometimes too :) 
     skip_join: true
     template:
       - "\x0313 hOpenBLAS \x03/\x0306%{branch}\x03 \x0314%{commit}\x03 %{build_url} %{message}"
